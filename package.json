@@ -1,0 +1,24 @@
+{
+  "name": "ats-node",
+  "version": "1.0.0",
+  "description": "Application Tracking System ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all"
+  },
+  "author": "Fiyin Akinsiku",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.24.0",
+    "sequelize-cli": "^6.5.1"
+  }
+}
